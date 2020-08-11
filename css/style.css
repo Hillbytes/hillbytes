@@ -1,4 +1,4 @@
-*{
+fo*{
 	box-sizing: border-box;
 	font-family: "Montserrat";
 }
@@ -295,9 +295,14 @@ footer hr{
 	width: 90%
 }
 
-footer h1 {
+footer h2 {
 	color: #00D9C0;
 	margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color : white;
 }
 
 footer .footer-column-2{
@@ -307,7 +312,7 @@ footer .footer-column-2{
 .reach{
 	background-color: #002F43;
 	padding: 30px 40px;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 @media (min-width: 768px){
@@ -315,6 +320,8 @@ footer .footer-column-2{
 	position: relative;
 	float: right;
 }
+
+
 
 
 }
@@ -334,6 +341,10 @@ footer .footer-column-2{
 		font-size: 1.2em;
 		
 	}
+	
+	.reach{
+        font-size : 16px;
+    }
 
 	.overlay-1 button{
 		position: absolute;
